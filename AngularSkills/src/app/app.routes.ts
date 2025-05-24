@@ -3,7 +3,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { HomeComponent } from '../home/home.component';
+import { HomeComponent } from './components/home/home.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
