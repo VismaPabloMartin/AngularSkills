@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
+/**
+ * Component for displaying the skills section.
+ */
 export class SkillsComponent { }

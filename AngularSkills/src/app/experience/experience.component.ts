@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
+/**
+ * Component for detailing work experience.
+ */
 export class ExperienceComponent { }
