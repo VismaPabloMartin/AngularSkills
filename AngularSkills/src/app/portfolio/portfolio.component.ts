@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.scss']
 })
+/**
+ * Component for showcasing portfolio projects.
+ */
 export class PortfolioComponent { }
