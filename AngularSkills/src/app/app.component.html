@@ -1,24 +1,21 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<style>
-  :host {
-    --bright-blue: oklch(51.01% 0.274 263.83);
-    --electric-violet: oklch(53.18% 0.28 296.97);
-    --french-violet: oklch(47.66% 0.246 305.88);
-    --vivid-pink: oklch(69.02% 0.277 332.77);
-    --hot-red: oklch(61.42% 0.238 15.34);
-    --orange-red: oklch(63.32% 0.24 31.68);
-
-    --gray-900: oklch(19.37% 0.006 300.98);
-    --gray-700: oklch(36.98% 0.014 302.71);
-    --gray-400: oklch(70.9% 0.015 304.04);
+<div class="min-h-screen transition-colors duration-300" [ngClass]="{'dark:bg-dark dark:text-light': true}">
+  <header class="fixed top-0 w-full bg-light dark:bg-dark shadow-md z-10">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-heading font-bold text-primary">AngularSkills</h1>
+      <app-theme-toggle></app-theme-toggle>
+    </div>
+  </header>
+  
+  <main class="container mx-auto px-4 pt-24 pb-16">
+    <router-outlet></router-outlet>
+  </main>
+  
+  <footer class="bg-gray-100 dark:bg-gray-800 py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-gray-600 dark:text-gray-300">© 2025 AngularSkills - Portfolio Project</p>
+    </div>
+  </footer>
+</div>
 
     --red-to-pink-to-purple-vertical-gradient: linear-gradient(
       180deg,
