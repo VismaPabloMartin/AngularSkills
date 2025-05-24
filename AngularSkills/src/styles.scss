@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto; // Center sections if they have a max-width
+  max-width: 960px; // Optional: constrain width for larger screens
+  border-radius: 8px;
+  // box-shadow: 0 2px 4px rgba(0,0,0,0.1); // Optional subtle shadow
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007bff; // Example primary color
+}
